@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: "april-food-server"
+
+  profiles:
+    active: "local"
+
+  cloud:
+    nacos:
+      config:
+        file-extension: "yml"
+        server-addr: "http://localhost:8848"
+      discovery:
+        server-addr: "http://localhost:8848"
+
+my:
+  name: "my-config-local"
