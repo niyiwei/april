@@ -53,6 +53,13 @@
             </exclusions>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.learn.cluod</groupId>
+            <artifactId>april-food-client</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
