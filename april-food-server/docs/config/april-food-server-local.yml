@@ -1,0 +1,16 @@
+server:
+  port: 9200
+
+spring:
+  cloud:
+    config:
+      override-none: true
+logging:
+  level:
+    root: debug
+
+my:
+  name: "abcd"
+  server: "biubiubiu"
+  enable: true
+  age: 28

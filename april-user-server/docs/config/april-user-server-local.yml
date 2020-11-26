@@ -1,0 +1,11 @@
+server:
+  port: 9100
+
+user:
+  name: "xmmmmmm"
+  amount: 10086
+  timeout: 15
+
+logging:
+  level:
+    root: debug
